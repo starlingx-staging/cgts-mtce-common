@@ -1,0 +1,20 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+libssh2
+libssh2-devel
+json-c
+json-c-devel
+fm-common
+fm-common-dev
+fm-mgr
+#guest-client-devel, not actually used
+openssl
+openssl-dev
+libevent
+libevent-devel
+expect
+postgresql
+#libuuid-devel, replaced by util-linux-dev
+util-linux-dev
+systemd-devel
+cppcheck
