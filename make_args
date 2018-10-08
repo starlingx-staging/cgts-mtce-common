@@ -1,0 +1,3 @@
+MAJOR=${version%%.*}
+MINOR=${version##*.}
+build VER=${MINOR} VER_MJR=${MAJOR}
